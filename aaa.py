@@ -1,0 +1,1 @@
+for i in open(0):a,b,c,d,e,f=map(int,i.split());f-=c;e-=b+(f<0);d-=a+(e<0);print(d,e%60,f%60)
